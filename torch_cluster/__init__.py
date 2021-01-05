@@ -37,6 +37,7 @@ from .fps import fps  # noqa
 from .nearest import nearest  # noqa
 from .knn import knn, knn_graph  # noqa
 from .radius import radius, radius_graph  # noqa
+from .radius_pbc import radius_graph_pbc  # noqa
 from .rw import random_walk  # noqa
 from .sampler import neighbor_sampler  # noqa
 
@@ -49,6 +50,7 @@ __all__ = [
     'knn_graph',
     'radius',
     'radius_graph',
+    'radius_graph_pbc',
     'random_walk',
     'neighbor_sampler',
     '__version__',
